@@ -1,44 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-/* Import de la font Roboto depuis Google Fonts et on l'applique sur tous les éléments de la page */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
+/* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
 body * {
    font-family: 'Syne';
 }
-/* On applique un gris plus clair sur les paragraphes */
 p {
    color: #313332;
 }
-h1,h2,h3
-{
-    color: green;
-}
-/* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
-.hover-effect img {
-   transition: all 0.33s ease-in-out;
-   transform: scale(1) translateY(0px);
-}
-.hover-effect img:hover {
-   transition: all 0.33s ease-in-out;
-   transform: scale(1.05) translateY(-10px);
-}
+/*HEADER*/
 #site-header.sticky-top{
-    position: sticky;
+   position: sticky;
+   top: 0px ;
     z-index: 10;
-    top: 0;
-    background-color: white ;
+   background-color: white ;
+   box-shadow:2px 2px 10px;
 }
+a
+{
+text-decoration: none !important;
+}
+
+ .noborder-color
+ {
+color: black;
+ }
+ li.menu-item a{
+   position: relative;
+   left: 251px;
+   color: black !important;
+   background-color:white ;
+   padding: 40px 118px;
+ }
+.taille-logo{
+   height: 22.48px;
+   width: 238px;
+}
+#site-header
+{
+   height: 130px;
+   margin-top: -30px;
+}
+.bouton-commander
+{
+	line-height: 1.5;
+	margin: 0.75rem 0 0 0rem;
+   position: relative;
+   left: 111px;
+   color:white !important;
+   background-color:#DC9F96 ;
+   padding: 40px 118px;
+}
+.admin-position
+{
+   position: relative;
+   left: 111px;
+   color: black !important;
+   background-color:white ;
+   padding: 40px 118px;
+}
+/*FOOTER*/
 #site-footer {
     padding: 20px;
     text-align: center;
     color: black;
     background-color: white !important;
  }
- .noborder-color
+ .footer-position
  {
-color: black;
-text-decoration: none;
+   margin: auto;
+   margin-bottom: 20px;
  }
- .center-image
- {
-    margin: auto;
-    margin-bottom: 30px;
- }
+ .footer-nav-widgets-wrapper,
+#site-footer {
+	background-color: #fff;
+	border-color: #dedfdf;
+   border: none;
+}

@@ -56,7 +56,7 @@
 
 					<?php } ?>
 
-					<div class="header-titles">
+					<div class="header-titles taille-logo">
 
 						<?php
 							// Site title or logo.
@@ -80,6 +80,7 @@
 				</div><!-- .header-titles-wrapper -->
 
 				<div class="header-navigation-wrapper">
+					
 
 					<?php
 					if ( has_nav_menu( 'primary' ) || ! has_nav_menu( 'expanded' ) ) {
@@ -113,8 +114,9 @@
 
 								}
 								?>
-
+			<a class="bouton-commander" href="http://localhost/Planty/commander/">Commander</a>
 								</ul>
+				
 
 							</nav><!-- .primary-menu-wrapper -->
 
