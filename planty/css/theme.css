@@ -75,3 +75,33 @@ color: black;
 	border-color: #dedfdf;
    border: none;
 }
+.background-image
+{
+   background-image: url("http://localhost/Planty/wp-content/uploads/2023/06/vinicius-wiesehofer-UOavP_Z38lE-unsplash-1-1.png") ;
+   background-size: cover;
+   background-position: center;
+   background-clip: text;
+   -webkit-background-clip: text;
+   font-size: 250px;
+   color: transparent;
+}
+.background-image2
+{
+   background-image: url("http://localhost/Planty/wp-content/uploads/2023/06/sai-de-silva-4-gFGb12hFA-unsplash-1.png") ;
+   background-size: cover;
+   background-position: center;
+   background-clip: text;
+   -webkit-background-clip: text;
+   font-size: 250px;
+   color: transparent;
+}
+.background-image3
+{
+   background-image: url("http://localhost/Planty/wp-content/uploads/2023/06/bruce-mars-AndE50aaHn4-unsplash-1-1.png") ;
+   background-size: cover;
+   background-position: center;
+   background-clip: text;
+   -webkit-background-clip: text;
+   font-size: 250px;
+   color: transparent;
+}
